@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+  font-family: system-ui, -apple-system, "Heebo", Arial, sans-serif;
+  line-height: 1.4;
+}

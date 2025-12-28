@@ -1,0 +1,59 @@
+.section {
+    padding: 48px 16px;
+}
+
+.inner {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.mainTitle {
+    margin: 0 0 20px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.grid {
+    display: grid;
+    gap: 16px;
+
+    @media (min-width: 860px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: stretch;
+    }
+}
+
+.card {
+    padding: 24px 22px;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #fff; // ניטרלי בלבד
+}
+
+.cardTitle {
+    margin: 0 0 14px;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 800;
+}
+
+.lead {
+    margin: 0 0 12px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.list {
+    margin: 0;
+    padding: 0 1.1rem 0 0; // RTL: הזחה ימינה
+    list-style: disc;
+}
+
+.list li {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.75;
+}
