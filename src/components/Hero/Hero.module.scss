@@ -1,10 +1,14 @@
-.hero {
-    padding: 32px 16px;
+@use "../../styles/variables" as *;
 
+.hero {
+    background: $hero-bg;
+    padding: 40px 16px 56px;
+    direction: rtl;
+    overflow: hidden;
 }
 
 .inner {
-    max-width: 1100px;
+    max-width: 1680px;
     margin: 0 auto;
 }
 
@@ -12,73 +16,171 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
-.brand {
-    display: flex;
-    align-items: center;
-}
-
-.logoPlaceholder {
-    width: 180px;
-    height: 44px;
-    border: 1px dashed rgba(0, 0, 0, 0.35);
-    border-radius: 10px;
-    display: grid;
-    place-items: center;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+.logo {
+    height: 120px;
+    width: auto;
+    display: block;
 }
 
 .bh {
     font-size: 14px;
-    opacity: 0.8;
+    color: $text-secondary;
 }
 
 .content {
-    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* חשוב: נותן "במה" ל-absolute */
+    min-height: min(680px, 78vh);
+
+    /* קצת אוויר כדי שהטקסט לא ייכנס בתמונה */
+    padding: 60px 16px 80px;
 }
 
 .text {
-    max-width: 720px;
+    position: relative;
+    z-index: 2;
+    max-width: 559px;
+
+    /* הטקסט מיושר לימין אבל הבלוק נשאר במרכז */
+    margin: 0 auto;
+    text-align: right;
 }
 
 .title {
-    margin: 0 0 10px;
-    font-size: clamp(28px, 4vw, 52px);
-    line-height: 1.05;
+    margin: 0 0 24px;
+    line-height: 0.8;
+    font-weight: 800;
+    color: $accent-pink;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; // 👈 שינוי מ-center ל-flex-end
+    font-family: "TitleFont", sans-serif;
 }
 
-.subtitle {
-    margin: 0 0 18px;
-    font-size: clamp(18px, 2.6vw, 34px);
-    line-height: 1.15;
-    font-weight: 700;
+.titleLineSmall {
+    display: block;
+    font-size: clamp(2.625rem, 5.2vw, 5.625rem);
+}
+
+.titleLineLarge {
+    display: block;
+    font-size: clamp(5.75rem, 14.5vw, 15.125rem);
+    margin: -4px 0;
+}
+
+.kicker {
+    margin: 0 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: $text-secondary;
 }
 
 .paragraph {
     margin: 0 0 16px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
+    color: $text-main;
 }
 
 .emphasis {
-    margin: 0;
+    margin: 0 0 24px;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.6;
+    color: $text-secondary;}
+
+.actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
 
-/* רספונסיביות קטנה */
-@media (max-width: 480px) {
-    .logoPlaceholder {
-        width: 140px;
-        height: 40px;
+.cta {
+    background: $cta-bg;
+    color: $cta-text;
+    padding: 14px 28px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.media {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* במקום -100px */
+    left: auto;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    pointer-events: none;
+
+    /* מרחק קבוע מהקצה + גמישות לפי מסך */
+    transform: translateX(18%);
+}
+
+.media img {
+    height: min(560px, 70vh);
+    width: auto;
+    max-width: none;
+    display: block;
+    transform: scaleX(-1);
+}
+
+/* רספונסיביות */
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        min-height: auto;
     }
 
-    .topRow {
-        margin-bottom: 20px;
+    .text {
+        padding: 0 20px;
+        order: 2;
+    }
+
+    .media {
+        position: relative;
+        order: 1;
+        margin-bottom: 24px;
+        left: auto;
+    }
+
+    .media img {
+        height: min(420px, 50vh);
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 52px;
+    }
+
+    .hero {
+        padding: 32px 16px 48px;
+    }
+
+    .text {
+        padding: 0 12px;
+    }
+
+    .media img {
+        height: min(360px, 45vh);
     }
 }

@@ -1,0 +1,265 @@
+%!Adobe-FontList 1.25
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/AdobeFnt25.lst
+FileLength:6203
+FileModTime:788721115
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:EmojiOneColor
+FamilyName:EmojiOne
+StyleName:Color
+MenuName:EmojiOne
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:EmojiOne
+WritingScript:Emoji
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/EmojiOneColor.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:yes
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:4232712
+FileModTime:785929440
+NameArray:0,Mac,4,EmojiOne
+NameArray:0,Win,1,EmojiOne
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FbTamlilCondensed-Medium
+FamilyName:Fb TamlilCondensed
+StyleName:Medium
+MenuName:Fb TamlilCondensed Medium
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Fb TamlilCondensed Medium
+FamilyNameNative:
+StyleNameNative:Medium
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/FbTamlilCondensed-Medium.otf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:48588
+FileModTime:503696112
+NameArray:0,Mac,4,Fb TamlilCondensed Medium
+NameArray:0,Win,1,Fb TamlilCondensed Medium
+NameArray:0,Win,16,Fb TamlilCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:217280
+FileModTime:778446575
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AlmoniMLv5AAA-Bold
+FamilyName:Almoni ML v5 AAA
+StyleName:Bold
+MenuName:Almoni ML v5 AAA
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Almoni ML v5 AAA Bold
+WritingScript:Roman
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/almoni-bold-aaa.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:179900
+FileModTime:635258896
+NameArray:0,Mac,4,Almoni ML v5 AAA Bold
+NameArray:0,Win,1,Almoni ML v5 AAA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AlmoniMLv5AAA-D-Bold
+FamilyName:Almoni ML v5 AAA
+StyleName:DemiBold
+MenuName:Almoni ML v5 AAA D-Bold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Almoni ML v5 AAA DemiBold
+WritingScript:Roman
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/almoni-demibold-aaa.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:178716
+FileModTime:635258892
+NameArray:0,Mac,18,Almoni ML v5 AAA D-Bold
+NameArray:0,Mac,4,Almoni ML v5 AAA DemiBold
+NameArray:0,Win,1,Almoni ML v5 AAA D-Bold
+NameArray:0,Win,16,Almoni ML v5 AAA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AlmoniMLv5AAA-Regular
+FamilyName:Almoni ML v5 AAA
+StyleName:Regular
+MenuName:Almoni ML v5 AAA
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Almoni ML v5 AAA Regular
+WritingScript:Roman
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/almoni-regular-aaa.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:176052
+FileModTime:635258906
+NameArray:0,Mac,4,Almoni ML v5 AAA Regular
+NameArray:0,Win,1,Almoni ML v5 AAA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MixtapeAAA-Bold
+FamilyName:Mixtape AAA
+StyleName:Bold
+MenuName:Mixtape AAA
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Mixtape AAA Bold
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/mixtape-bold-aaa.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:37984
+FileModTime:615541356
+NameArray:0,Mac,4,Mixtape AAA Bold
+NameArray:0,Win,1,Mixtape AAA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Noyland2.0AAA-Regular
+FamilyName:Noyland 2.0 AAA
+StyleName:Regular
+MenuName:Noyland 2.0 AAA
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noyland 2.0 AAA Regular
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/noyland-regular-aaa.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:29680
+FileModTime:615541356
+NameArray:0,Mac,4,Noyland 2.0 AAA Regular
+NameArray:0,Win,1,Noyland 2.0 AAA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Ploni1.1AAA-Bold
+FamilyName:Ploni 1.1 AAA
+StyleName:Bold
+MenuName:Ploni 1.1 AAA
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Ploni 1.1 AAA Bold
+WritingScript:Roman
+OutlineFileName:/Users/levytamam/Desktop/דף נחיתה רשת/דף נחיתה מוכנות Folder/Document fonts/ploni-aaa-bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:118932
+FileModTime:563703932
+NameArray:0,Mac,4,Ploni 1.1 AAA Bold
+NameArray:0,Win,1,Ploni 1.1 AAA
+%EndFont
+

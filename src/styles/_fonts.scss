@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "TitleFont";
+    src: url("fonts/TitleFont.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Almoni (AAA) */
+@font-face {
+    font-family: "Almoni";
+    src: url("/fonts/almoni-regular-aaa.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Almoni";
+    src: url("/fonts/almoni-demibold-aaa.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Almoni";
+    src: url("/fonts/almoni-bold-aaa.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
