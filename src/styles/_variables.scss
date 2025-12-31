@@ -1,4 +1,31 @@
-$primary: #6b5cff;
-$secondary: #f4f4f4;
+/* === Base === */
 $font-main: 'Heebo', sans-serif;
+$font-title: "TitleFont", sans-serif;
+$font-almoni: "Almoni", sans-serif;
+
 $radius: 12px;
+
+/* === Hero === */
+$hero-bg: #BFE6EC;
+$hero-bg-soft: #D9F1F4;
+
+/* === Text === */
+$text-main: #513996;
+$text-secondary: #aa479a;
+
+/* === Accent === */
+$accent-pink: #EE2F62;
+
+/* === CTA === */
+$cta-bg: #7B3FA1;
+$cta-text: #EFF1F3;
+
+/* === Font Weights (לא צבעים, אבל חשובים לסדר) === */
+$w-regular: 400;
+$w-demibold: 600;
+$w-bold: 700;
+
+/* === Mid CTA (מהפס הסגול) === */
+$midcta-bg: #8a3f7d;
+$midcta-accent: #01bbd6; // הטורקיז של הטקסט העליון/תחתון
+$focus-outline: #ffffffd9; // outline לפוקוס
