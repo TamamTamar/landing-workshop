@@ -1,23 +1,12 @@
 import { useRef, useState } from "react";
-import MidCta from "../components/MidCta/MidCta";
-import BottomCta from "../components/BottomCta/BottomCta";
+import AudienceBlock from "../components/AudienceBlock/AudienceBlock";
 import SignupForm from "../components/SignupForm/SignupForm";
+import Hero from "../components/Hero/Hero";
 
 const Landing = () => {
     const [isSignupOpen, setIsSignupOpen] = useState(false);
     const signupSectionRef = useRef<HTMLElement | null>(null);
 
-    const openSignup = () => {
-        setIsSignupOpen(true);
-
-        // מחכים שהטופס יופיע ב-DOM ואז גוללים אליו
-        requestAnimationFrame(() => {
-            signupSectionRef.current?.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-            });
-        });
-    };
 
     const closeSignup = () => {
         setIsSignupOpen(false);
@@ -25,16 +14,8 @@ const Landing = () => {
 
     return (
         <>
-
-     
-            <MidCta onSignupClick={openSignup} />
-
-            {/* ... שאר הסקשנים שלך ... */}
-
-            {/* כפתור נוסף (בתחתית / איפה שיש בעיצוב) */}
-            <BottomCta onSignupClick={openSignup} />
-
-            {/* הטופס – כללי ונפתח מכל מקום */}
+            <Hero />
+            <AudienceBlock />
             <SignupForm
                 ref={signupSectionRef}
                 isOpen={isSignupOpen}

@@ -1,20 +1,17 @@
+@use "../../styles/variables" as *;
+
 .section {
     position: relative;
     overflow: hidden;
     padding: 48px 16px 0;
-
-    background: #ffffff;
-    /* השכבה שמתחת */
 }
 
 .section::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: #01bbd6;
-    /* התכלת המקורי */
+    background: $hero-bg-soft;
     opacity: 0.4;
-    /* השקיפות */
     pointer-events: none;
     z-index: 0;
 }
