@@ -1,59 +1,105 @@
-.section {
-    padding: 48px 16px;
-}
+@use "../../styles/variables" as *;
 
-.inner {
-    max-width: 1040px;
-    margin: 0 auto;
-}
-
-.mainTitle {
-    margin: 0 0 20px;
-    font-size: 28px;
-    line-height: 1.2;
-    font-weight: 800;
+.root {
+    direction: rtl;
 }
 
 .grid {
     display: grid;
-    gap: 16px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 16px;
+}
 
-    @media (min-width: 860px) {
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        align-items: stretch;
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 573px 573px;
+        gap: 40px;
+        max-width: 1186px;
+        margin: 0 auto;
     }
 }
 
 .card {
-    padding: 24px 22px;
-    border-radius: 18px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    background: #fff; // ניטרלי בלבד
+    position: relative;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    padding: 40px 36px 28px;
+    overflow: visible;
 }
 
-.cardTitle {
-    margin: 0 0 14px;
-    font-size: 22px;
-    line-height: 1.25;
-    font-weight: 800;
+@media (min-width: 900px) {
+    .card {
+        height: 355px;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.iconImg {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+}
+
+.title {
+    margin: 0 0 18px;
+    text-align: center;
+    font-weight: $w-bold;
+    font-size: 24px;
+    font-family: $font-almoni;
+    border-bottom: 2px solid transparent;
+    letter-spacing: -0.03em;
+}
+
+.good .title {
+    color: $audience-good-color;
+    border-bottom-color: $audience-good-color;
+}
+
+.bad .title {
+    color: $accent-pink;
+    border-bottom-color: $accent-pink;
 }
 
 .lead {
-    margin: 0 0 12px;
-    font-size: 18px;
-    line-height: 1.6;
-    font-weight: 600;
+    text-align: center;
+    margin: 0
+    ;
+    font-family: $font-almoni;
+    font-weight: $w-regular;
+    font-size: 24px;
+    color: $text-main;
+    letter-spacing: -0.03em;
 }
 
 .list {
     margin: 0;
-    padding: 0 1.1rem 0 0; // RTL: הזחה ימינה
-    list-style: disc;
+    padding-right: 18px;
+    font-family: $font-almoni;
+    font-weight: $w-regular;
+    font-size: 24px;
+    color: $text-main;
+        letter-spacing: -0.03em;
 }
 
-.list li {
-    margin: 10px 0;
-    font-size: 18px;
-    line-height: 1.75;
+.good li::marker {
+    color: $audience-good-color;
+}
+
+.bad li::marker {
+    color: $accent-pink;
 }
