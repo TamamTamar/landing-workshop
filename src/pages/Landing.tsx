@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import AudienceBlock from "../components/AudienceBlock/AudienceBlock";
 import SignupForm from "../components/SignupForm/SignupForm";
 import Hero from "../components/Hero/Hero";
+import MidStrip from "../components/MidStrip/MidStrip";
 
 const Landing = () => {
     const [isSignupOpen, setIsSignupOpen] = useState(false);
@@ -15,6 +16,7 @@ const Landing = () => {
     return (
         <>
             <Hero />
+            <MidStrip ctaHref="#signup" />
             <AudienceBlock />
             <SignupForm
                 ref={signupSectionRef}
