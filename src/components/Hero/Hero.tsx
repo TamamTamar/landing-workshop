@@ -34,7 +34,6 @@ const Hero = () => {
 
                             <p className={styles.emphasis}>
                                 אין הזדמנות שנייה לחוויה ראשונית.
-                                <br />
                                 והאחריות — בידיים שלכם.
                             </p>
                         </div>
